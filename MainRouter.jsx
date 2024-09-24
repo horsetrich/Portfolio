@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
-import About from './src/about'
+import About from './src/About'
 import Contact from './src/Contact'
 import Education from './src/education'
 import Project from './src/Project'

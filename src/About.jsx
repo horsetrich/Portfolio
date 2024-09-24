@@ -1,6 +1,6 @@
 import React from 'react';
-import myFile from './Files/Resume.pdf';
-import myPicture from './Images/MatthewPicture.jpg';
+import myFile from './Resume.pdf';
+import myPicture from './MatthewPicture.jpg';
 import {Link} from 'react-router-dom';
 
 const About = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import ProjectOne from './Images/Project1.png';
-import ProjectTwo from './Images/Project2.png';
+import ProjectOne from './Project1.png';
+import ProjectTwo from './Project2.png';
 
 const projects = [
     { id: 1, title: 'Project 1', description: 'I created a 3D model of this cat character with animations', image: ProjectOne },

@@ -14,7 +14,7 @@ const About = () => {
             <br />
             <p>I am currently 23 years old, and am studying with hopes to continue my studies in an engineering program.
                 I grew up in a small town north west of Toronto, and grew up playing various sports. Programming is fun,
-                as it is like a puzzle to me.
+                as it is like a puzzle to me. Hi Mila, I love you :)
             </p>
             <Link to={myFile} download="My Resume" target="_blank" rel="noreferrer">Download my resume</Link>
         </div>

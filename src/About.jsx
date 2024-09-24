@@ -1,5 +1,5 @@
 import React from 'react';
-import myFile from './assets/Resume.pdf';
+import myFile from './Resume.pdf';
 import myPicture from './MatthewPicture.jpg';
 import {Link} from 'react-router-dom';
 

@@ -21,7 +21,7 @@ const Contact = () => {
     };
 
     return (
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -100%)' }}>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -100%)', textAlign: 'center' }}>
             <h1>Contact Me</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="firstName"

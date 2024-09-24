@@ -4,7 +4,7 @@ import ProjectTwo from './Project2.png';
 
 const projects = [
     { id: 1, title: 'Project 1', description: 'I created a 3D model of this cat character with animations', image: ProjectOne },
-    { id: 2, title: 'Project 2', description: 'Worked on a small game. I was in charge of creating the enemies, boss, health, items, melee and spells', image: ProjectTwo},
+    { id: 2, title: 'Project 2', description: <a href="https://tmcausla.itch.io/season-of-the-witch">Worked on a small game. I was in charge of creating the enemies, boss, health, items, melee and spells</a>, image: ProjectTwo},
     { id: 3, title: 'Project 3', description: 'Something', iamge: 'Nothing' }
 ];
 

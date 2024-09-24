@@ -6,7 +6,7 @@ import MainRouter from '../MainRouter';
 const App = () => {
 
   return (
-    <Router>
+    <Router basename="/Portfolio/">
 
       <MainRouter />
 

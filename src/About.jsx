@@ -16,7 +16,7 @@ const About = () => {
                 I grew up in a small town north west of Toronto, and grew up playing various sports. Programming is fun,
                 as it is like a puzzle to me. Hi Mila, I love you :)
             </p>
-            <Link to={myFile} download="My-Resume.pdf" target="_blank" rel="noreferrer">Download my resume</Link>
+            <a href={myFile} download="My-Resume.pdf" target="_blank" rel="noopener noreferrer"><button>Download my resume</button></a>
         </div>
     );
 };

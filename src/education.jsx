@@ -1,4 +1,8 @@
+//Matthew Kool 301184313
+//Import
 import CentColl from './CentColl.png'
+
+//My education
 export default function Education() {
     return (
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>

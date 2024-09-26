@@ -1,6 +1,9 @@
+//Matthew Kool 301184313
+//Imports
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//Default home page
 const Home = () => {
     return (
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -80%)' , textAlign: 'center'}}>

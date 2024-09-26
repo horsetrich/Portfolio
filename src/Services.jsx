@@ -1,5 +1,8 @@
+//Matthew Kool 301184313
+//Imports
 import React from 'react';
 
+//What's returned
 const Services = () => {
     return (
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -100%)' }}>

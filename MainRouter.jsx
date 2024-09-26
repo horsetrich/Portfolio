@@ -1,3 +1,5 @@
+//Matthew Kool 301184313
+//Imports... that's a lot of them
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
@@ -8,6 +10,7 @@ import Project from './src/Project'
 import Layout from './components/Layout'
 import Services from './src/Services'
 
+//Returns the routes, allowing you to go to the right place
 const MainRouter = () => {
     return (
         <div >

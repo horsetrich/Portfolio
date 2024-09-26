@@ -1,5 +1,8 @@
+//Matthew Kool 301184313
+//Imports
 import React, { useState } from 'react';
 
+//Where the contact info gets stored
 const Contact = () => {
     const [formData, setFormData] = useState({
         firstName: '',
@@ -9,17 +12,18 @@ const Contact = () => {
         message: ''
     });
 
+    //What happens on change
     const handleChange = (e) => {
         setFormData({
             ...formData, [e.target.name]:
             e.target.value
         });
     };
-
+//Makes it so no default
     const handleSubmit = (e) => {
         e.preventDefault();
     };
-
+//what it looks like
     return (
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -100%)', textAlign: 'center' }}>
             <h1>Contact Me</h1>

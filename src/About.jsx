@@ -1,8 +1,11 @@
+//Matthew Kool 301184313
+//Imports
 import React from 'react';
 import myFile from '../src/Resume.pdf';
 import myPicture from './MatthewPicture.jpg';
 import {Link} from 'react-router-dom';
 
+//Where the info is stored, and returned
 const About = () => {
     return (
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>

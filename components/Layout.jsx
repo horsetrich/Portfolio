@@ -1,6 +1,9 @@
+//Matthew Kool 301184313
+//Imports
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//Navigation layout
 export default function Layout() {
     return (
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -250%)' }}>

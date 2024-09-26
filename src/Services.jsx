@@ -5,7 +5,7 @@ import React from 'react';
 //What's returned
 const Services = () => {
     return (
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -100%)' }}>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -80%)' }}>
             <h1>Services</h1>
             <ul>
                 <li>General Programming</li>

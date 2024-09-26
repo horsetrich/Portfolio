@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 //Where the info is stored, and returned
 const About = () => {
     return (
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -45%)', textAlign: 'center' }}>
             <h1>About Me</h1>
             <img src={myPicture} alt="Picture of Me" width="50" height="100"/>
             <p>Hello, I am Matthew Kool. I am a second year student

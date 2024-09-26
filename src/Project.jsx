@@ -14,7 +14,7 @@ const projects = [
 //Where the actual page is
 const Project = () => {
     return (
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -40%)', textAlign: 'center' }}>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -32%)', textAlign: 'center' }}>
             <h1>Projects</h1>
             {projects.map(project => (
                 <div key={project.id}>
